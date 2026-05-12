@@ -61,27 +61,6 @@ By adjusting the potentiometer:
 | 50% | Medium |
 | 75% | Bright |
 
-The waveform images below demonstrate the PWM output at different duty cycles.
-
-![PWM 25%](images/pwm_waveform_25.png)
-![PWM 50%](images/pwm_waveform_50.png)
-![PWM 75%](images/pwm_waveform_75.png)
-
----
-
-## Preview Images
-
-### Schematic Diagram
-![Schematic](images/schematic.png)
-
-### PCB Layout
-![PCB Layout](images/pcb_layout.png)
-
-### Routed PCB
-![Routed PCB](images/routed_pcb.png)
-
-### 3D PCB View
-![3D View](images/3d_view.png)
 
 ---
 
@@ -149,12 +128,4 @@ python pwm_waveform_generator.py
 
 ---
 
-## License
 
-This project is open for educational and personal use. Feel free to modify and fabricate your own boards.
-"""
-
-with open("output/README.md", "w", encoding="utf-8") as f:
-    f.write(readme_content)
-
-print("README.md generated successfully in output/README.md")
