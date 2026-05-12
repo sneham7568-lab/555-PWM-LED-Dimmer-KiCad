@@ -1,5 +1,5 @@
 
- """# 555 PWM LED Dimmer (KiCad PCB Design)
+ 555 PWM LED Dimmer (KiCad PCB Design)
 
 A PWM-based LED dimmer using the NE555 timer IC. The circuit controls LED brightness by adjusting the duty cycle with a potentiometer, while the entire workflow was designed in KiCad including schematic, PCB layout, 3D visualization, and fabrication-ready Gerber files.
 
