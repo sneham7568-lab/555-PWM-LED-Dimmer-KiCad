@@ -68,26 +68,34 @@ By adjusting the potentiometer:
 
 ```plaintext
 555-PWM-LED-Dimmer-KiCad/
+│
 ├── schematic/
-│   └── pwm_led_dimmer.kicad_sch
+│   ├── PWM_LED_DIMMER.kicad_sch
+│   ├── pwm_led_dimmer.pdf
+│   └── schematic.png
 │
 ├── pcb/
-│   └── pwm_led_dimmer.kicad_pcb
+│   ├── PWM_LED_DIMMER.kicad_pcb
+│   ├── PWM_LED_DIMMER.kicad_pro
+│   └── routed_pcb.png
 │
 ├── gerber/
-│   ├── *.gbr
-│   └── *.drl
+│   ├── PWM_LED_DIMMER-F_Cu.gbr
+│   ├── PWM_LED_DIMMER-B_Cu.gbr
+│   ├── PWM_LED_DIMMER-F_Silkscreen.gbr
+│   ├── PWM_LED_DIMMER-Edge_Cuts.gbr
+│   ├── PWM_LED_DIMMER-job.gbrjob
+│   ├── PWM_LED_DIMMER-PTH.drl
+│   └── PWM_LED_DIMMER-NPTH.drl
 │
 ├── images/
-│   ├── schematic.png
-│   ├── pcb_layout.png
-│   ├── routed_pcb.png
 │   ├── 3d_view.png
-│   ├── pwm_waveform_25.png
-│   ├── pwm_waveform_50.png
-│   └── pwm_waveform_75.png
+│   ├── pcb_layout.png
+│   ├── silkscreen_layer.png
+│   └── fabrication_layer.png
 │
 ├── waveform/
+│   ├── pwm_waveform.png
 │   └── pwm_waveform_generator.py
 │
 └── README.md
